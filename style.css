@@ -1,3 +1,6 @@
+li{
+  list-style: none;
+}
 
 .accordion{
   width: 500px;
@@ -79,4 +82,36 @@
   padding: 20px;
   border: 1px solid tomato;
   border-top: 1px solid transparent;
+}
+
+
+/*====================*/
+
+.accordion__control-two{
+  width: 100%;
+  border: 1px solid tomato;
+  padding: 10px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__content-two{
+  padding: 20px;
+  border: 1px solid tomato;
+  border-top: 1px solid transparent;
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.open .accordion__icon{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
 }
